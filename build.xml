@@ -166,12 +166,7 @@
 			<classpath refid="classpath.src" />
 			<classpath refid="classpath.test" />
 			<formatter type="brief" usefile="false" />
-			<test name="TestMessageUtil" />
-			<!--<batchtest>
-				<fileset dir="${testdir}">
-					<include name="**/Test*.java" />
-				</fileset>
-			</batchtest>-->
+			
 		</junit>
 		<junitreport todir="${test.htmlreports.dir}">
 			<fileset dir="${test.data.dir}">
