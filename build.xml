@@ -147,7 +147,7 @@
 
 		<!--<javac srcdir="${testdir}" classpathref="compile.classpath" destdir="${testdir}" debug="true" includes="${src.dir}" includeAntRuntime="false" />-->
 
-		<javac srcdir="${testdir}" destdir="${testdir}" debug="true" includes="${srcdir}" includeAntRuntime="true">
+		<javac srcdir="${testdir}" destdir="${testdir}" debug="true" includeAntRuntime="true">
 			<classpath refid="classpath.base" />
 			<classpath refid="classpath.src" />
 			<classpath refid="classpath.test" />
