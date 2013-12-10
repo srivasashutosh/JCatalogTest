@@ -37,7 +37,7 @@ public class Testdb extends DatabaseTestCase {
 
 		   Connection jdbcConnection = 
 			 (Connection) DriverManager.getConnection(
-		  "jdbc:mysql://localhost:3306/catalog", "root", "admin");
+		  "jdbc:mysql://192.168.103.30:3306/catalog", "root", "admin");
 		   
 		   return new DatabaseConnection(jdbcConnection);
 	}
