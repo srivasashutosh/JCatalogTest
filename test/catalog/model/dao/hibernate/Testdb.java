@@ -89,7 +89,7 @@ public class Testdb extends DatabaseTestCase {
     	
        IDataSet expectedDataSet = getDataSet();
         ITable expectedTable = expectedDataSet.getTable("product");
-        System.out.println(expectedDataSet.getTableNames().toString());
+        //System.out.println(expectedDataSet.getTableNames().toString());
         //System.out.println(expectedTable.getValue(1, "name").toString());
 
         //assertEquals(expectedTable, actualTable);
@@ -104,7 +104,7 @@ public class Testdb extends DatabaseTestCase {
     {
     	ITable table= getConnection().createQueryTable("product", "select distinct name from product order by id");
     	
-    	System.out.println(table.getRowCount());
+    	//System.out.println(table.getRowCount());
     	assertTrue("get all products", (table.getRowCount()>0));
 		
     }
@@ -132,7 +132,7 @@ public class Testdb extends DatabaseTestCase {
 		IDataSet iset = null;
 		while((str=br.readLine())!=null)
 		{
-			System.out.println(str);
+			//System.out.println(str);
 			
 		}
 		return new FlatXmlDataSetBuilder().build(new FileInputStream("dataset1.xml"));
