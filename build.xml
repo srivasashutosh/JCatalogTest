@@ -34,11 +34,11 @@
 		</fileset>
 	</path>
 
-	<path id="javaclasspath">
+	<!--<path id="javaclasspath">
 		<fileset dir="${src.dir}">
 			<include name="**/*.java" />
 		</fileset>
-	</path>
+	</path>-->
 
 	<path id="classpath.base">
 		<pathelement location="${basedir}/lib/tools.jar" />
@@ -49,7 +49,7 @@
 		<pathelement location="${testdir}" />
 		<path refid="classpath.base" />
 		<path refid="classpath" />
-	    <path refid="javaclasspath" />
+	    <!--<path refid="javaclasspath" />-->
 	</path>
 
 	<path id="classpath.src">
