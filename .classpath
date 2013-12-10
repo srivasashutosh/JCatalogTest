@@ -52,5 +52,6 @@
 	<classpathentry kind="lib" path="lib/dbunit-2.4.9.jar" sourcepath="lib/dbunit-2.4.9.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.5.jar"/>
 	<classpathentry kind="lib" path="lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="lib/tools.jar"/>
 	<classpathentry kind="output" path="output/classes"/>
 </classpath>
