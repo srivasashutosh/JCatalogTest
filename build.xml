@@ -139,16 +139,16 @@
 	</target>
 
 	
-	<target name="compile">
+	<!--<target name="compile">
 		<javac srcdir="${src.dir}" destdir="${src.dir}" verbose="${full-compile}">
 			<classpath refid="classpath.test" />
 			<classpath refid="classpath.base" />
 		</javac>
-	</target>
+	</target>-->
 
 
 
-	<target name="compile-test" depends="compile">
+	<target name="compile-test">
 
 		<!--<mkdir dir="${classes.dir}" />-->
 
