@@ -158,7 +158,7 @@
 			<classpath refid="classpath.base" />
 			<classpath refid="classpath.src" />
 			<classpath refid="classpath.test" />
-			<include name="**/Testdb.java" />
+			<include name="catalog/model/dao/hibernate/Testdb.java" />
 		</javac>
 
 	</target>
